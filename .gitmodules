@@ -1,0 +1,6 @@
+[submodule "config_dir/cookbooks/java"]
+	path = config_dir/cookbooks/java
+	url = git@github.com:agileorbit-cookbooks/java.git
+[submodule "config_dir/cookbooks/cookbook-elasticsearch"]
+	path = config_dir/cookbooks/cookbook-elasticsearch
+	url = git@github.com:h4ck3rm1k3/cookbook-elasticsearch.git

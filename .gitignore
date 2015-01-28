@@ -1,0 +1,11 @@
+/config_dir/syntax_check_cache/*
+*~
+*.pem
+/config_dir/test_id_rsa
+/config_dir/test_id_rsa.pub
+/log.txt
+/nodes/localhost.localdomain.json
+/config_dir/nodes/localhost.localdomain.json
+/config_dir/cookbooks/TEST1/*
+/config_dir/local-mode-cache/cache/*
+

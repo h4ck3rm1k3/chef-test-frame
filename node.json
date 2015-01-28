@@ -1,0 +1,16 @@
+{
+  "name": "elasticsearch-cookbook-test",
+  "run_list": [
+    "recipe[java]",
+    "recipe[elasticsearch]"
+  ],
+
+  "java": {
+    "install_flavor": "openjdk",
+    "jdk_version": "7"
+  },
+
+  "elasticsearch": {
+    "cluster" : { "name" : "elasticsearch_test_chef" }
+  }
+}
