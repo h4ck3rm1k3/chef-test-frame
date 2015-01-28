@@ -1,16 +1,18 @@
 {
-  "name": "elasticsearch-cookbook-test",
-  "run_list": [
-    "recipe[java]",
-    "recipe[elasticsearch]"
-  ],
-
-  "java": {
-    "install_flavor": "openjdk",
-    "jdk_version": "7"
-  },
-
-  "elasticsearch": {
-    "cluster" : { "name" : "elasticsearch_test_chef" }
-  }
+    "name": "elasticsearch-cookbook-test",
+    "platform_family": "debian",
+    "run_list": [
+        "recipe[java]",
+        "recipe[elasticsearch]"
+    ],
+    
+    "java": {
+        "install_flavor": "openjdk",
+        "java_home" : "/usr/lib/jvm/java-7-openjdk-amd64",
+        "jdk_version": "7"        
+    },
+    
+    "elasticsearch": {
+        "cluster" : { "name" : "elasticsearch_test_chef" }
+    }
 }

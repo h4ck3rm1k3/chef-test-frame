@@ -4,3 +4,9 @@
 [submodule "config_dir/cookbooks/cookbook-elasticsearch"]
 	path = config_dir/cookbooks/cookbook-elasticsearch
 	url = git@github.com:h4ck3rm1k3/cookbook-elasticsearch.git
+[submodule "config_dir/cookbooks/ark"]
+	path = config_dir/cookbooks/ark
+	url = git@github.com:burtlo/ark.git
+[submodule "config_dir/cookbooks/build-essential"]
+	path = config_dir/cookbooks/build-essential
+	url = git@github.com:opscode-cookbooks/build-essential.git
